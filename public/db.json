@@ -1,0 +1,148 @@
+{
+  "orders": [
+    {
+      "masa": "B1",
+      "servant": "Aslan",
+      "status": "Ləğv edilən",
+      "amount": 6,
+      "endDate": "13:12:34",
+      "id": 1,
+      "foods": [
+        {
+          "name": "Toyuq salatı",
+          "amount": "2",
+          "price": 2,
+          "date": "13:12:30"
+        },
+        {
+          "name": "Cola",
+          "amount": "2",
+          "price": 1,
+          "date": "13:12:24"
+        }
+      ]
+    },
+    {
+      "masa": "A1",
+      "servant": "Aslan",
+      "status": "Sonlanan",
+      "amount": 16,
+      "endDate": "12:02:44",
+      "id": 2,
+      "foods": [
+        {
+          "name": "Plov",
+          "amount": "2",
+          "price": 5,
+          "date": "11:45:23"
+        },
+        {
+          "name": "Toyuq salatı",
+          "amount": "3",
+          "price": 2,
+          "date": "11:45:44"
+        }
+      ]
+    },
+    {
+      "masa": "C1",
+      "servant": "Namiq",
+      "status": "Sonlanmayan",
+      "amount": 13.5,
+      "endDate": " ",
+      "id": 3,
+      "foods": [
+        {
+          "name": "Toyuq salatı",
+          "amount": "3",
+          "price": 2,
+          "date": "06:42:33"
+        },
+        {
+          "name": "Lahmacun",
+          "amount": "3",
+          "price": 2.5,
+          "date": "06:43:00"
+        }
+      ]
+    },
+    {
+      "masa": "C1",
+      "servant": "Azad",
+      "status": "Sonlanan",
+      "amount": 12,
+      "endDate": "17:10:00",
+      "id": 4,
+      "foods": [
+        {
+          "name": "Dönər",
+          "amount": "5",
+          "price": 2,
+          "date": "17:05:00"
+        },
+        {
+          "name": "Toyuq salatı",
+          "amount": "2",
+          "price": 1,
+          "date": "17:04:30"
+        }
+      ]
+    },
+    {
+      "masa": "A1",
+      "servant": "Azad",
+      "status": "Sonlanan",
+      "amount": 12,
+      "endDate": "17:10:00",
+      "id": 4,
+      "foods": [
+        {
+          "name": "Dönər",
+          "amount": "5",
+          "price": 2,
+          "date": "17:05:00"
+        },
+        {
+          "name": "Toyuq salatı",
+          "amount": "2",
+          "price": 1,
+          "date": "17:04:30"
+        }
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "name": "Dönər",
+      "price": 2
+    },
+    {
+      "name": "Plov",
+      "price": 5
+    },
+    {
+      "name": "Su",
+      "price": 1
+    },
+    {
+      "name": "Lahmacun",
+      "price": 2.5
+    },
+    {
+      "name": "Mərci",
+      "price": 1.5
+    },
+    {
+      "name": "Toyuq salatı",
+      "price": 2
+    },
+    {
+      "name": "Cola",
+      "price": 1
+    },
+    {
+      "name": "Fanta",
+      "price": 1
+    }
+  ]
+}

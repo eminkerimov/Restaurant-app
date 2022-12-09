@@ -1,0 +1,144 @@
+.createOrder {
+    background-image: url(../../assets/image/4.jpg);
+    width: 100%;
+    height: calc(100vh - 140px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__table {
+        position: absolute;
+        bottom: 0;
+        right: 255px;
+        background-color: #fff;
+        padding: 50px 0;
+        width: 500px;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        h2 {
+            color: #5f0038;
+            font-weight: bold;
+            font-size: 32px;
+            letter-spacing: 2px;
+            margin-bottom: 100px;
+        }
+
+        .MuiFormControl-root {
+            background-color: #f0ede6;
+            width: 80%;
+        }
+    }
+}
+
+.newOrder {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 40px;
+
+    &__table {
+        width: 60%;
+        background-color: #5f0038;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+
+        h2 {
+            margin: 7px 0;
+        }
+
+        &__success {
+            color: #fff;
+            background-color: green;
+            border-radius: 3px;
+            padding: 4px;
+        }
+
+        svg {
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+
+        &__sum {
+            margin: 15px 0 15px 40%;
+            font-size: 18px;
+            color: #5f0038;
+            font-weight: bold;
+        }
+
+        &__add {
+            display: inline-block;
+            width: 30%;
+            padding: 16px 12px;
+            background-color: #5f0038;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            margin-left: 35%;
+            margin-bottom: 35px;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #4a002b;
+            }
+        }
+    }
+
+    &__modal {
+        background-color: #fff;
+        padding: 30px;
+        width: 20%;
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+        right: 80px;
+
+        .create__btn {
+            display: inline-block;
+            width: 100%;
+            padding: 16px 12px;
+            background-color: #5f0038;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #4a002b;
+            }
+        }
+
+        h2 {
+            color: #5f0038;
+            font-weight: bold;
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.create__btn {
+    display: inline-block;
+    width: 80%;
+    padding: 16px 12px;
+    background-color: #5f0038;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #4a002b;
+    }
+}

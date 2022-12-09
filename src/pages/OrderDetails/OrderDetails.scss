@@ -1,0 +1,26 @@
+.orderDetails {
+    background-image: url(../../assets/image/9.jpg);
+    width: 100%;
+    height: calc(100vh - 140px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &__card {
+        background-color: #fff;
+        top: 70px;
+        right: 33%;
+        position: absolute;
+        border: 3px solid #a29160;
+        padding: 25px;
+        h2 {
+            color: #5f0038;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #5f0038;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+    }
+}

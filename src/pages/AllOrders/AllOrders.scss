@@ -1,0 +1,22 @@
+.allOrders {
+    width: 100%;
+    background-color: #5f0038;
+    height: 100vh;
+    position: relative;
+    .MuiBox-root {
+        border: 5px solid #a29160;
+        position: absolute;
+        padding: 20px;
+        right: 30px;
+        top: 40px;
+        .MuiPaper-elevation {
+            border: 5px solid #a29160;
+        }
+    }
+    &__sum {
+        margin: 15px 0 0 45%;
+        font-size: 18px;
+        color: #5f0038;
+        font-weight: bold;
+    }
+}
